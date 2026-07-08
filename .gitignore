@@ -1,4 +1,6 @@
 data/processed/Europe
 data/raw/Europe/
+data/processed/US/finbert_checkpoints
+
 plots/Europe
 notebooks/Europe/
