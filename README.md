@@ -15,12 +15,12 @@ This notebook handles two tasks: downloading macroeconomic time series from the 
 
 #### Macroeconomic Indicators (FRED API, 2007–2023)
 
-| Indicator | FRED ID | Description | Transformation |
+| Indicator | FRED ID | Description 
 |---|---|---|---|
-| CPI | `CPIAUCSL` | Consumer Price Index | → `Inflation_MoM` (MoM %) |
+| CPI | `CPIAUCSL` | Consumer Price Index |
 | Unemployment | `UNRATE` | Civilian unemployment rate |
 | Interest Rate | `FEDFUNDS` | Effective Federal Funds Rate |
-| Industrial Production | `INDPRO`  → `IP_MoM` (MoM %) |
+| Industrial Production | `INDPRO` | Industrial Production & Capacity Utilization |
 
 #### News Sentiment — FinBERT
 
