@@ -24,7 +24,7 @@ This notebook handles two tasks: downloading macroeconomic time series from the 
 
 #### News Sentiment — FinBERT
 
-The sentiment pipeline uses `FinSen_US_Categorized_Timestamp.csv`, a dataset of approximately 15,000 financial news articles covering the same sample period. Each article is passed through [ProsusAI/finbert](https://huggingface.co/ProsusAI/finbert) — a BERT-based model fine-tuned on financial text.
+The sentiment pipeline uses [FinSen_US_Categorized_Timestamp.csv](https://www.kaggle.com/datasets/eaglewhl/finsen-financial-sentiment-dataset?select=FinSen_US_Categorized_Timestamp.csv), a dataset of approximately 15,000 financial news articles covering the same sample period. Each article is passed through [ProsusAI/finbert](https://huggingface.co/ProsusAI/finbert) — a BERT-based model fine-tuned on financial text.
 
 FinBERT outputs class probabilities for *positive*, *negative*, and *neutral* labels. These are converted to a net sentiment score per article:
 
