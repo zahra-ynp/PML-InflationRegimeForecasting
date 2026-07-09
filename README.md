@@ -15,8 +15,8 @@ This notebook handles two tasks: downloading macroeconomic time series from the 
 
 #### Macroeconomic Indicators (FRED API, 2007–2023)
 
-| Indicator | FRED ID | Description 
-|---|---|---|---|
+| Indicator | FRED ID | Description |
+|---|---|---|
 | CPI | `CPIAUCSL` | Consumer Price Index |
 | Unemployment | `UNRATE` | Civilian unemployment rate |
 | Interest Rate | `FEDFUNDS` | Effective Federal Funds Rate |
